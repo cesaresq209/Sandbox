@@ -6,6 +6,7 @@ void main(){
 	Uart_Init();
 	while(1)
 	{
+		// Test atollic git
 		if(GPIO_Read(PORTA, Pin2) == 1)
 		{
 			GPIO_Write(PORTA, Pin3, 1);
